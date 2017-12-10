@@ -10,7 +10,7 @@ cmake -DCMAKE_INSTALL_PREFIX=/opt/local ../
 
 ### 4G - LTE
 
-- [OpenLTE](https://sourceforge.net/p/openlte/wiki/Home/): An open source implementation of the 3GPP LTE specifications. USRP recommended.
+- [OpenLTE](https://sourceforge.net/p/openlte/wiki/Home/): An open source implementation of the 3GPP LTE specifications. USRP recommended. [+ OpenLTE Manual](https://github.com/mgp25/RF-List/blob/master/Mobile%20Communications/4G/OpenLTE/OpenLTE%20Manual.pdf)
 
 - [LTE Cell Scanner](https://github.com/JiaoXianjun/LTE-Cell-Scanner): OpenCL, SDR, TDD/FDD LTE cell scanner. [+ Detected cells somewhere in Madrid, Spain](https://github.com/mgp25/RF-List/blob/master/Mobile%20Communications/4G/LTE%20Cells%20detected%20in%20Madrid%20-%20Spain.pdf)
 
