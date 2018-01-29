@@ -14,6 +14,11 @@ cmake -DCMAKE_INSTALL_PREFIX=/opt/local ../
 
 - [LTE Cell Scanner](https://github.com/JiaoXianjun/LTE-Cell-Scanner): OpenCL, SDR, TDD/FDD LTE cell scanner. [+ Detected cells somewhere in Madrid, Spain](https://github.com/mgp25/RF-List/blob/master/Mobile%20Communications/4G/LTE%20Cells%20detected%20in%20Madrid%20-%20Spain.pdf)
 
+### 3G - UMTS
+
+- [OpenUMTS](https://github.com/RangeNetworks/OpenBTS-UMTS
+): An open source implementation of the 3GPP UMTS specifications. [+ OpenUMTS Manual](https://github.com/mgp25/RF-List/blob/master/Mobile%20Communications/3G/OpenUMTS/OpenUMTS%20Manual.pdf)
+
 ### 2G - GSM
 
 - [gr-gsm](https://github.com/ptrkrysik/gr-gsm): 
