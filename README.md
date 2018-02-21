@@ -16,7 +16,7 @@ cmake -DCMAKE_INSTALL_PREFIX=/opt/local ../
 
 ### 3G - UMTS
 
-- [OpenUMTS](https://github.com/RangeNetworks/OpenBTS-UMTS
+- [OpenUMTS](https://github.com/mgp25/OpenBTS-UMTS
 ): An open source implementation of the 3GPP UMTS specifications. [+ OpenUMTS Manual](https://github.com/mgp25/RF-List/blob/master/Mobile%20Communications/3G/OpenUMTS/OpenUMTS%20Manual.pdf)
 
 ### 2G - GSM
@@ -50,3 +50,7 @@ Remote video eavesdropping using a software-defined radio platform.
 ## ADS-B
 
 - [dump1090_sdrplus](https://github.com/itemir/dump1090_sdrplus): Dump1090_sdrplus is a Mode S decoder for Software Defined Radio (SDR) devices including RTL SDR, HackRF, Airspy and SDRplay.
+
+- [pyModeS](https://github.com/junzis/pyModeS):  The Python Decoder for ADS-B (DF17) and Enhance Mode-S (DF20/21)
+
+- [Mode S](http://mode-s.org/decode/adsb/introduction.html): An Open access book on Mode-S/ADS-B decoding and related topics
