@@ -10,7 +10,7 @@ cmake -DCMAKE_INSTALL_PREFIX=/opt/local ../
 
 ## Hardware
 
-- [HackRF](greatscottgadgets.com): low cost software radio platform.
+- [HackRF](https://greatscottgadgets.com): low cost software radio platform.
 	- [Opera cake](https://github.com/mossmann/hackrf/wiki/Opera-Cake): (sometimes operacake) is an antenna switching add on board for HackRF.
 
 - [USRP](https://github.com/EttusResearch/uhd): The USRP software defined radio products are designed for RF applications from DC to 6 GHz, including multiple antenna (MIMO) systems.
@@ -21,7 +21,7 @@ cmake -DCMAKE_INSTALL_PREFIX=/opt/local ../
 	- [4G - LTE](4g---lte)
 	- [3G - UMTS](#3g---umts)
 	- [2G - GSM](#2g---gsm)
-	- [SIM/USIM](#sim-usim)
+	- [SIM/USIM](#simusim)
 - [RF Tools](#rf-tools)
 - [ADB-S](#adb-s)
 - [GNURadio](#gnuradio)
