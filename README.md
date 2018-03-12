@@ -52,7 +52,7 @@ cmake -DCMAKE_INSTALL_PREFIX=/opt/local ../
 - [OpenBTS](https://github.com/RangeNetworks/openbts): GSM+GPRS Radio Access Network Node.
 
 - [YateBTS](http://yatebts.com/): YateBTS is a software implementation of a GSM/GPRS radio access network based on Yate and is compatible with both GSM/GPRS SS7 MAP and LTE IMS core networks integrated in our YateUCN unified core network server.
-	- [evilBTS](https://github.com/security-geeks/evilbts): Yate and YateBTS specific versions ( plus patches ) that are working with the BladeRF by [@evilsocket](https://github.com/evilsocket).
+	- [evilBTS](https://github.com/security-geeks/evilbts): Yate and YateBTS specific versions ( plus patches ) that are working with the BladeRF by [@evilsocket](https://github.com/evilsocket).
 
 - [FakeBTS](http://fakebts.com/): The aim of FakeBTS project is to detect fake BTS stations and prevent attacks, using a Linux computer and hardware that allows us to scan the frequencies of GSM/GPRS.
 
