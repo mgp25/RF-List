@@ -63,6 +63,8 @@ cmake -DCMAKE_INSTALL_PREFIX=/opt/local ../
 - [pySim](https://git.osmocom.org/pysim): Python-language program that can be used to program (write) certain fields/parameters on so-called programmable SIM/USIM cards.
 
 - [sysmo-usim-tool](https://git.sysmocom.de/sysmo-usim-tool/about/): Python language utility to configure the vendor-specific parameters of sysmoUSIM-SJS1 programmable USIM cards.
+
+- [OPC Calculator](https://github.com/mgp25/RF-List/blob/master/Mobile%20Communications/SIM-USIM/opc_calc.py): Python script that calculates OPC from Ki and OP values.
  
 
 ## RF Tools
