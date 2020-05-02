@@ -10,10 +10,18 @@ cmake -DCMAKE_INSTALL_PREFIX=/opt/local ../
 
 ## Hardware
 
+- [RTL2832U](https://github.com/osmocom/rtl-sdr): RTL-SDR is a very cheap software defined radio that uses a DVB-T TV tuner dongle based on the RTL2832U chipset. 
+
 - [HackRF](https://greatscottgadgets.com): low cost software radio platform.
 	- [Opera cake](https://github.com/mossmann/hackrf/wiki/Opera-Cake): (sometimes operacake) is an antenna switching add on board for HackRF.
 
 - [USRP](https://github.com/EttusResearch/uhd): The USRP software defined radio products are designed for RF applications from DC to 6 GHz, including multiple antenna (MIMO) systems.
+
+- [BladeRF](https://github.com/Nuand/bladeRF): BladeRF is a Software Defined Radio (SDR) platform designed to enable a community of hobbyists, and professionals to explore and experiment with the multidisciplinary facets of RF communication.  [Nuand.com](http://nuand.com/)
+
+- [LimeSDR](https://github.com/myriadrf):LimeSDR is a low cost, open source, apps-enabled software defined radio (SDR) platform that can be used to support just about any type of wireless communication standard. [Lime Microsystems](http://www.limemicro.com/)
+
+- [PlutoSDR](https://github.com/analogdevicesinc/plutosdr-fw): PlutoSDR Firmware for the ADALM-PLUTO Active Learning Module. [Adalm Pluto](https://www.analog.com/en/design-center/evaluation-hardware-and-software/evaluation-boards-kits/adalm-pluto.html#eb-overview)
 
 ## Software
 
@@ -22,6 +30,7 @@ cmake -DCMAKE_INSTALL_PREFIX=/opt/local ../
 	- [3G - UMTS](#3g---umts)
 	- [2G - GSM](#2g---gsm)
 	- [SIM/USIM](#simusim)
+- [SDR Software](#sdr-software)
 - [RF Tools](#rf-tools)
 - [ADB-S](#adb-s)
 - [GNURadio](#gnuradio)
@@ -67,6 +76,44 @@ cmake -DCMAKE_INSTALL_PREFIX=/opt/local ../
 - [OPC Calculator](https://github.com/mgp25/RF-List/blob/master/Mobile%20Communications/SIM-USIM/opc_calc.py): Python script that calculates OPC from Ki and OP values.
  
 
+### SDR SoftWare
+
+- **[SigDigger](https://github.com/BatchDrake/SigDigger)**: Qt-based digital signal analyzer, using Suscan core and Sigutils DSP library. ⭐️⭐️⭐️ **(My personal favorite and has MacOs Support ♥️).**
+
+- [GQRX](https://github.com/csete/gqrx): Software defined radio receiver powered by GNU Radio and Qt
+
+- [SDRSharp](http://airspy.com/download/): Airspy is a popular, affordable SDR (software defined radio) based communication receiver with the highest performance and the smallest form factor. It is a serious alternative to both cost sensitive and higher end scanners while featuring the best radio browsing experience of the market thanks to the tight integration with the de facto standard SDR# software.[@airspy_com](https://twitter.com/airspy_com)
+
+- [SDR_Console](http://sdr-radio.com/v3_help): SDR-Radio.com is a Windows console for Software Defined Radio (SDR) receivers and transceivers. Designed for the commercial, government, amateur radio and short-wave listener communities, the software provides a powerful interface for all SDR users. [Suport Hardware List](http://sdr-radio.com/Radios)
+
+- [HDSDR](http://www.hdsdr.de/): HDSDR is a freeware Software Defined Radio (SDR) program for Microsoft Windows 2000/XP/Vista/7/8/8.1/10.
+
+- [CubicSDR](https://github.com/cjcliffe/CubicSDR): Cross-Platform Software-Defined Radio Application 
+
+- [sdrangel](https://github.com/f4exb/sdrangel): SDR Rx/Tx software for Airspy, BladeRF, HackRF, LimeSDR, RTL-SDR, SDRplay RSP1 and FunCube
+
+- [shinysdr](https://github.com/kpreid/shinysdr): Software-defined radio receiver application built on GNU Radio with a web-based UI and plugins. In development, usable but incomplete. Compatible with RTL-SDR.
+
+- [openwebrx](https://github.com/simonyiszk/openwebrx): Open source, multi-user SDR receiver software with a web interface.
+
+- [luaradio](https://github.com/vsergeev/luaradio): A lightweight, embeddable software-defined radio framework built on LuaJIT.
+
+- [qspectrumanalyzer](https://github.com/xmikos/qspectrumanalyzer): Spectrum analyzer for multiple SDR platforms (PyQtGraph based GUI for soapy_power, hackrf_sweep, rtl_power, rx_power and other backends)
+
+- [PandwaRF](https://github.com/ComThings/PandwaRF): PandwaRF: RF analysis tool with a sub-1 GHz wireless transceiver controlled by a smartphone.
+
+- [PSDR](https://github.com/MichaelRColton/PSDR): PortableSDR - A Stand Alone HF Software Defined Transciever.
+
+- [spektrum](https://github.com/pavels/spektrum): Spektrum is spectrum analyzer software for use with rtl-sdr.
+
+- [OpenUSRP](https://github.com/jocover/OpenUSRP): Using LimeSDR to simulate USRP B210,OpenUSRP can using LimeSDR to simulate USRP B210 Device
+
+- [kalibrate-rtl](https://github.com/steve-m/kalibrate-rtl): GSM frequency scanner and frequency offset calculator use with rtl-sdr devices
+
+- [kalibrate-hackrf](https://github.com/scateu/kalibrate-hackrf): kalibrate for hackrf
+
+- [kalibrate-bladeRF](https://github.com/Nuand/kalibrate-bladeRF): kalibrate for bladeRF
+
 ## RF Tools
 
 - [Audacity](http://www.audacityteam.org/): Audacity is free, open source, cross-platform audio software for multi-track recording and editing.
@@ -104,5 +151,7 @@ GNUradio blocks and tools for receiving GSM transmissions.
 
 - [gr-lte](https://github.com/kit-cel/gr-lte): The gr-lte project is an Open Source Software Package which aims to provide a GNU Radio LTE Receiver to receive, synchronize and decode LTE signals.
 
-- [gr-correctiq](https://github.com/ghostop14/gr-correctiq): GNURadio blocks to remove that IQ DC spike just like some software and drivers do! Three techniques available: auto, auto-tune to dc offset, and manual. 
+- [gr-correctiq](https://github.com/ghostop14/gr-correctiq): GNURadio blocks to remove that IQ DC spike just like some software and drivers do! Three techniques available: auto, auto-tune to dc offset, and manual.
+
+- [gr-cc11xx](https://github.com/andrepuschmann/gr-cc11xx): GNU Radio OOT module for communicating with TI CC11xx based devices.
 
