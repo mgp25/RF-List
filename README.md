@@ -146,6 +146,8 @@ Remote video eavesdropping using a software-defined radio platform.
 
 ## GNURadio
 
+- [gr-tempest](https://github.com/git-artes/gr-tempest): An implementation of TEMPEST in GNU Radio.
+
 - [gr-gsm](https://github.com/ptrkrysik/gr-gsm): 
 GNUradio blocks and tools for receiving GSM transmissions.
 
