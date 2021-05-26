@@ -38,6 +38,10 @@ cmake -DCMAKE_INSTALL_PREFIX=/opt/local ../
 
 - [PlutoSDR](https://github.com/analogdevicesinc/plutosdr-fw): PlutoSDR Firmware for the ADALM-PLUTO Active Learning Module. [Adalm Pluto](https://www.analog.com/en/design-center/evaluation-hardware-and-software/evaluation-boards-kits/adalm-pluto.html#eb-overview)
 
+- [Proxmark](https://proxmark.com/): The Proxmark is an RFID swiss-army tool, allowing for both high and low level interactions with the vast majority of RFID tags and systems world-wide. Originally built by Jonathan Westhues over 10 years ago, the device has progressively evolved into the industry standard tool for RFID Analysis.
+
+- [ChameleonMini/Tiny](): Powerful and portable RFID Emulation multi-tool with Bluetooth functionality.
+
 # Software
 
 ## Mobile Communications
@@ -138,6 +142,9 @@ Remote video eavesdropping using a software-defined radio platform.
 
 - [gps-sdr-sim](https://github.com/osqzss/gps-sdr-sim): GPS-SDR-SIM generates GPS baseband signal data streams, which can be converted to RF using software-defined radio (SDR) platforms, such as bladeRF, HackRF, and USRP.
 
+- [proxmark3](https://github.com/RfidResearchGroup/proxmark3): RRG / Iceman repo, the most totally wicked repo around if you are into Proxmark3 and RFID hacking.
+
+- [ChameleonMini](https://github.com/RfidResearchGroup/ChameleonMini):  The ChameleonMini is a versatile contactless smartcard emulator compliant to NFC.
 
 ## ADS-B
 
