@@ -42,6 +42,8 @@ cmake -DCMAKE_INSTALL_PREFIX=/opt/local ../
 
 - [ChameleonMini/Tiny](): Powerful and portable RFID Emulation multi-tool with Bluetooth functionality.
 
+- [Flipper Zero](): Flipper Zero is a portable multi-functional device developed for interaction with access control systems. The device is able to read, copy, and emulate RFID and NFC tags, radio remotes, iButton, and digital access keys, along with a GPIO interface.
+
 # Software
 
 ## Mobile Communications
@@ -141,6 +143,8 @@ cmake -DCMAKE_INSTALL_PREFIX=/opt/local ../
 Remote video eavesdropping using a software-defined radio platform.
 
 - [gps-sdr-sim](https://github.com/osqzss/gps-sdr-sim): GPS-SDR-SIM generates GPS baseband signal data streams, which can be converted to RF using software-defined radio (SDR) platforms, such as bladeRF, HackRF, and USRP.
+
+- [gnss-sdr](https://gnss-sdr.org/): An open-source Global Navigation Satellite Systems software-defined receiver.
 
 - [proxmark3](https://github.com/RfidResearchGroup/proxmark3): RRG / Iceman repo, the most totally wicked repo around if you are into Proxmark3 and RFID hacking.
 
